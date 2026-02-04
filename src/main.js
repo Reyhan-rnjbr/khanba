@@ -7,7 +7,7 @@ const createTaskEl = document.getElementById("createTask");
 const cards = document.getElementById("cards");
 
 buttonTask.addEventListener("click", () => {
-  task.classList.remove("hiddenModal");
+  task.classList.toggle("hiddenModal");
 });
 
 createTaskEl.addEventListener("click", () => {
